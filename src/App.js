@@ -1,23 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import Start from "./components/Start/Start";
+import { useContext } from "react";
+import Board from "./components/Board/Board";
+import PopUp from "./components/pop-up/PopUp";
+import { GameContext } from "./context/GameContext";
 
 function App() {
+  const { screen } = useContext(GameContext)
+  // console.log(screen)
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="container">
+        {screen === 'start' && <Start />}
+        {screen === 'game' && <Board />}
+      </div>
+      <PopUp />
     </div>
   );
 }

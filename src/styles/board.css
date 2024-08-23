@@ -1,0 +1,60 @@
+/* Board Header */
+.board__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+.board__turn {
+  border-radius: 5px;
+  background-color: var(--color-bg-light);
+  padding: 8px 12px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  box-shadow: 0 4px 0 rgb(0, 0, 0, 0.2);
+}
+.board__restart svg{
+  height: 20px;
+  display: flex;
+  align-items: center;
+  transform-origin: center;
+  transition: all 0.2s;
+}
+.board__restart:active svg {
+  transform: rotate(180deg);
+} 
+
+
+/* Board Body */
+.board__body {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px 20px;
+}
+.board__body .card {
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.board__body .active.shadow-yellow {
+  background-color: var(--color-yellow);
+}
+.board__body .active.shadow-blue {
+  background-color: var(--color-blue);
+}
+
+
+/* Board Footer */
+.board__footer {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.board__footer .card {
+  gap: 5px;
+  padding: 15px;
+}

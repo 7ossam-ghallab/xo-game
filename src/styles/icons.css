@@ -1,0 +1,27 @@
+.icon {
+  display: inline-block;
+}
+.icon svg {
+  fill: var(--color-gray);
+  height: 50px;
+  width: 50px;
+  vertical-align: middle;
+}
+.icon-sm svg {
+  height: 30px;
+  width: 30px;
+}
+.icon-lg svg {
+  height: 65px;
+  width: 65px;
+}
+
+.icon-yellow svg {
+  fill: var(--color-yellow);
+}
+.icon-blue svg {
+  fill: var(--color-blue);
+}
+.icon-dark svg {
+  fill: var(--color-bg-dark);
+}
