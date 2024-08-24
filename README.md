@@ -8,8 +8,11 @@ This project is a web-based implementation of the classic Tic-Tac-Toe (or XO) ga
 <br>
 <img src="./README/2.jpeg" width="600" style="display: block; margin: 0 auto;">
 <br>
+<be>
+<a href="https://7ossam-ghallab.github.io/xo-game/">
+<button class="button" style="display: block; border:none; outline: none; background:#1bb673; padding: 10px 40px; font-size: 16px; font-weight: bold; color: white; letter-spacing: 3px; margin: 0 auto;">DEMO</button>
+</a>
 <br>
-<button class="button" style="display: block; border:none; outline: none; background:#1bb673; padding: 10px 40px; font-size: 16px; font-weight: bold; color: white; letter-spacing: 3px; margin: 0 auto;">DEMO</button><br>
 
 ## Features
 
