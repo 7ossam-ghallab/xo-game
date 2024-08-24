@@ -1,70 +1,50 @@
-# Getting Started with Create React App
+# Tic-Tac-Toe Web Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a web-based implementation of the classic Tic-Tac-Toe (or XO) game, developed using the React library. The game was created as part of a challenge from [Frontend Mentor](https://www.frontendmentor.io/challenges/tic-tac-toe-game-Re7ZF_E2v). The application offers two modes of play: against the computer (CPU) or against a friend.
+<br>
+<br>
+<img src="./README/1.jpeg" width="600" style="display: block; margin: 0 auto;">
+<br>
+<br>
+<img src="./README/2.jpeg" width="600" style="display: block; margin: 0 auto;">
+<br>
+<br>
+<button class="button" style="display: block; border:none; outline: none; background:#1bb673; padding: 10px 40px; font-size: 16px; font-weight: bold; color: white; letter-spacing: 3px; margin: 0 auto;">DEMO</button><br>
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Two Game Modes**:
 
-### `npm start`
+  1. **Player vs Computer (AI)**: Choose to play as either X or O, and compete against the computer. The AI opponent is designed to provide a challenging gameplay experience.
+  2. **Player vs Player**: Play against a friend, with Player 1 always starting as X.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **User Interface**:  
+  The application consists of two main interfaces:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+  1. **Start Screen**:
+     - Select your preferred game mode (Player vs Computer or Player vs Player).
+     - Choose your symbol (X or O) if playing against the computer.
+  2. **Game Board**:
+     - The classic 3x3 grid where the game is played.
+     - A score tracker that updates after each round.
+     - A reset button to clear the score and start fresh.
 
-### `npm test`
+- **Victory Pop-up**:  
+  When a player wins, a pop-up appears announcing the winner, with options to either continue playing or exit the game.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Responsive Design**:  
+  The game is fully responsive and works seamlessly on different screen sizes, providing an optimal gaming experience on both desktop and mobile devices.
 
-### `npm run build`
+## How to Play
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. **Launch the Application**: Start by choosing either to play against the computer or a friend.
+2. **Make Your Moves**: Click on an empty cell in the grid to place your symbol (X or O).
+3. **Win the Game**: The first player to align three of their symbols horizontally, vertically, or diagonally wins the game.
+4. **View the Results**: After each game, a pop-up will display the winner, and the score will be updated accordingly.
+5. **Continue or Reset**: You can choose to play again or reset the scores and start a new session.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Contributing
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Contributions to this project are welcome. If you have suggestions for improvements or new features, feel free to submit a pull request or open an issue.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+`created by: Hossam Ghallab :)`
